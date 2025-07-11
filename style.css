@@ -1,0 +1,52 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #091540;
+  color: #ffcb05;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  background: #1b2cc1;
+  padding: 0.5em;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.charts, .interactive-controls {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1em;
+}
+canvas {
+  background: white;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+input, button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #666;
+}
