@@ -1,0 +1,70 @@
+
+:root {
+  --primary-color: #091540;
+  --secondary-color: #1b2cc1;
+  --accent-color: #ffcb05;
+  --background-color: #f4f4f4;
+  --text-color: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+nav {
+  background-color: var(--secondary-color);
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.trend {
+  font-size: 0.9rem;
+  color: #666;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
