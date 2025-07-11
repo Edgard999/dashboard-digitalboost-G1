@@ -23,26 +23,13 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
-.charts, .interactive-controls {
-  max-width: 1000px;
+.container {
+  max-width: 800px;
   margin: auto;
-  padding: 1em;
-}
-canvas {
+  padding: 2em;
   background: white;
-  margin: 1em 0;
-  padding: 1em;
-  border-radius: 8px;
-}
-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 1em;
-}
-input, button {
-  padding: 0.5em;
-  font-size: 1em;
+  border-radius: 10px;
+  margin-top: 2em;
 }
 footer {
   text-align: center;
